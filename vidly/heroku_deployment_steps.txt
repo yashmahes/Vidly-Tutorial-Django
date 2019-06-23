@@ -1,0 +1,33 @@
+In command line write following steps
+
+git --version
+
+heroku --version
+
+pipenv install gunicorn
+
+python manage.py collectstatic
+
+pipenv install whitenoise
+
+pip freeze > requirements.txt
+
+git init
+
+git add .
+
+git commit -m "initial"
+
+heroku login
+
+heroku create
+
+git push heroku master
+
+heroku ps:scale web=1
+
+heroku open
+
+git add .
+
+git commit -m "add allowed hosts"
